@@ -56,8 +56,7 @@
     {
       "type": "terminal",
       "key": "Terminal",
-      "keyColor": "38;2;144;218;244",
-      "format": "{pretty-name}"
+      "keyColor": "38;2;144;218;244"
     },
 
     {
@@ -74,7 +73,7 @@
       "type": "gpu",
       "key": "GPU     ",
       "keyColor": "38;2;59;119;188",
-      "format": "AMD Radeon HD 6350"
+      "format": "{name}"
     },
     {
       "type": "memory",
