@@ -1,5 +1,5 @@
 hl.monitor({
-    output       = "DVI-I-1",
+    output       = "preffered",
     mode         = "1920x1080@60",
     position     = "0x0",
     scale        = "1"

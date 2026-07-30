@@ -1,4 +1,5 @@
 hl.on("hyprland.start", function () 
    hl.exec_cmd("code")
    hl.exec_cmd("firefox")
+   hl.exec_cmd("awww-daemon &")
 end)
