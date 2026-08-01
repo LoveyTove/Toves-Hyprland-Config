@@ -1,0 +1,105 @@
+{
+  "logo": {
+    "type": "kitty",
+    "source": "~/.config/fastfetch/Artix.png",
+    "width": 28,
+    "height": 14
+  },
+  "display": {
+    "separator": " ",
+    "color": {
+      "keys": "default"
+    },
+    "bar": {
+      "width": 5,
+      "border": {
+        "left": "",
+        "right": ""
+      }
+    }
+  },
+  "modules": [
+     {
+       "type": "custom",
+       "format": "╭────────────╮"
+     },
+     {
+       "type": "title", // User
+       "format": "│  User     │ {user-name}"
+     },
+     {
+       "type": "uptime",
+       "key":"│",
+       "format":" Uptime   │ {formatted}"
+     },
+     {
+       "type": "kernel",
+       "key": "│",
+       "format": " Kernel   │ {release}"
+     },
+     {
+       "type": "os",
+       "key":"│",
+       "format": " OS       │ {name}"
+     },
+     {
+       "type": "wm",
+       "key": "│",
+       "format":"󰍹 Wm       │ {pretty-name}"
+     },
+     {
+       "type": "cpu",
+       "key": "│",
+       "format": " Cpu      │ {name} ({cores-physical} Cores, {cores-logical} Threads) @ {freq-max}"
+     },
+    {
+       "type": "cpu",
+       "key": "│",
+       "temp": true,
+       "format": "󰡵 Temp     │ {temperature}"
+     },
+     {
+       "type": "shell",
+       "key": "│",
+       "format": " Shell    │ {pretty-name} {version}"
+     },
+     {
+       "type": "gpu",
+       "key": "│",
+       "format": "󰾲 Gpu      │ {vendor} {name}"
+     },
+     {
+       "type": "memory",
+       "key": "│",
+        "percent": {
+         "type": 3,
+         "green": 40,
+         "yellow": 80
+       },
+       "format":" Memory   │ {used} / {total} [{percentage-bar}]"
+     },
+     {
+       "type": "disk",
+       "key": "│",
+       "folders": ["/"],
+       "percent": {
+         "type": 3,
+         "green": 40,
+         "yellow": 80
+       },
+       "format": " /        │ {size-used} / {size-total} [{size-percentage-bar}]"
+     },
+     {
+       "type": "custom",
+       "format":"├────────────┤"
+     },
+     {
+       "type": "custom",
+       "format": "│  Colour   │ \u001b[38;5;236m \u001b[38;5;240m \u001b[38;5;244m \u001b[38;5;248m \u001b[38;5;252m \u001b[38;5;254m \u001b[38;5;15m \u001b[38;5;7m "
+     },
+     {
+       "type": "custom",
+       "format": "╰────────────╯"
+     }
+  ]
+}

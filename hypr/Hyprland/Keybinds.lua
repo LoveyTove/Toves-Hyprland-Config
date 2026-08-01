@@ -1,5 +1,5 @@
 -- Things I want to shorten --
-local terminal = "alacritty"
+local terminal = "kitty"
 local filemgr  = terminal .. " -e spf"
 local browser  = "firefox"
 local ide      = "code"
