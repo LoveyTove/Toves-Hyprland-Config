@@ -3,7 +3,7 @@ hl.config({
         blur = {
             xray                          = true,
             size                          = 14,
-            passes                        = 1,
+            passes                        = 3,
             brightness                    = 1,
             noise                         = 0.02,
             contrast                      = 0.8,
